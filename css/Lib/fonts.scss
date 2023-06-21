@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./../fonts/Montserrat-Bold.ttf) format('ttf');
+    src: url(./../fonts/Montserrat-Bold.woff) format('woff');
+    src: url(./../fonts/Montserrat-Bold.woff2) format('woff2');
+    src: url(./../fonts/Montserrat-Regular.ttf) format('ttf');
+    src: url(./../fonts/Montserrat-Regular.woff) format('woff');
+    src: url(./../fonts/Montserrat-Regular.woff2) format('woff2');
+}
+
+@mixin fs38 {
+    font-weight: 700;
+    font-size: 2.72rem;
+    line-height: 1.4em;
+}
+
+@mixin fs36 {
+    font-weight: 700;
+    font-size: 2.57rem;
+    line-height: 1.4em;
+}
+
+@mixin fs19 {
+    font-size: 1.36rem;
+    line-height: 1.6em;
+}
+
+@mixin fs16 {
+    font-size: 1.15rem;
+    line-height: 1.5em;
+    color: $wight;
+}
+
+
+
+
