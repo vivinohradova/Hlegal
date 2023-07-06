@@ -20,6 +20,11 @@
     line-height: 1.4em;
 }
 
+@mixin fs30 {
+    font-weight: 700;
+    font-size: 2.15rem;
+}
+
 @mixin fs19 {
     font-size: 1.36rem;
     line-height: 1.6em;

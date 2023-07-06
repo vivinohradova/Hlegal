@@ -45,6 +45,8 @@
               color: #FFFFFF;
               font-size: 1.4rem;
               text-decoration: none; }
+            .gradient .header .container1 .main_header.header-mobile .right .menu .info img {
+              padding: 0 4px; }
           .gradient .header .container1 .main_header.header-mobile .right .menu .nav-link:active {
             background: #E6E6F0;
             border-radius: 8px; }
@@ -181,7 +183,40 @@
       .gradient_publications .header_publications .container1 .main_header.header-mobile .right h3 {
         font-size: 1.43rem; }
       .gradient_publications .header_publications .container1 .main_header.header-mobile .right .slash {
-        height: 26px; } }
+        height: 26px; }
+
+  .intro .container1 {
+    flex-direction: column;
+    padding: 0 30px; }
+    .intro .container1 .left {
+      width: 100%; }
+    .intro .container1 .right {
+      margin: 30px 0; }
+
+  .photo {
+    padding: 0; }
+
+  .information .container1 {
+    flex-direction: column;
+    padding: 30px 30px 0 30px; }
+    .information .container1 .left {
+      width: 100%; }
+    .information .container1 .right {
+      width: 100%; }
+      .information .container1 .right .title {
+        font-size: 2.15rem;
+        padding-top: 30px; }
+
+  .achievements .container1 {
+    padding: 30px; }
+    .achievements .container1 .text {
+      text-align: center; }
+    .achievements .container1 .images {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .achievements .container1 .images img {
+        padding: 15px 60px; } }
 /* Tablet SD*/
 @media screen and (min-width: 521px) and (max-width: 768px) {
   .container1 {
