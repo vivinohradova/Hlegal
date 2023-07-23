@@ -386,11 +386,11 @@ a,
       .news .cards_wrapper .cards .info {
         padding: 0 30px; }
         .news .cards_wrapper .cards .info .data {
+          font-size: 0.85rem;
           color: #B3B3BA;
           padding-bottom: 15px;
           border-bottom: 4px solid #E6E6F0;
-          font-weight: 700;
-          font-size: 0.85rem; }
+          font-weight: 700; }
         .news .cards_wrapper .cards .info .text {
           padding: 15px 0 30px 0; }
 
@@ -642,5 +642,49 @@ a,
         cursor: pointer; }
       .achievements .container1 .buttons .btn1:not(:first-child) {
         opacity: 0.2; }
+
+.main .title {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 1000px;
+  margin: 0 auto; }
+.main .cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0; }
+  .main .cards_wrapper .cards {
+    width: 400px; }
+    .main .cards_wrapper .cards:nth-child(2), .main .cards_wrapper .cards:nth-child(5) {
+      margin: 0 60px; }
+    .main .cards_wrapper .cards:nth-child(n+4) {
+      margin-top: 60px; }
+    .main .cards_wrapper .cards .image {
+      width: 100%;
+      height: 400px;
+      border-radius: 12px; }
+    .main .cards_wrapper .cards .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .main .cards_wrapper .cards .info .text_wrapp .name {
+        font-size: 1.15rem;
+        line-height: 1.5em;
+        color: #FFFFFF;
+        color: #323264;
+        font-weight: 700; }
+      .main .cards_wrapper .cards .info .text_wrapp .text {
+        font-size: 0.85rem;
+        color: #B3B3BA; }
+      .main .cards_wrapper .cards .info .btn1 {
+        width: 32px;
+        height: 32px;
+        background: no-repeat url(./../images/More.svg); }
+        .main .cards_wrapper .cards .info .btn1:hover {
+          background: no-repeat url(./../images/Hover.svg); }
+
+.footer .wrap_text {
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */
